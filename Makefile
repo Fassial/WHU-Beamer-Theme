@@ -18,3 +18,7 @@ clean:
 	rm -rf *.toc
 	rm -rf *.vrb
 
+clean-all:
+	make clean
+	rm -rf *.pdf
+
